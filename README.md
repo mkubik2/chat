@@ -6,8 +6,17 @@ of the Socket.IO website.
 
 Please refer to it to learn how to run this application.
 
-You can also spin up a free Heroku dyno to test it out:
+You can also spin up a free IBM CLoud Runtime to test it out:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/socketio/chat-example)
+[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/mkubik2/chat)
+
+This sample was enriched by a manifest.yml:
+```
+---
+applications:
+- name: WhoChats
+  memory: 128M
+  host: whochats
+```
 
 Besides, the application is deployed on [Now](https://zeit.co/now): https://socketio-chat-example.now.sh/
