@@ -1,4 +1,5 @@
 ---
+applications:
 - name: WhoChats
   memory: 128M
   host: whochats
